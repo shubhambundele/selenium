@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 public class TestClassSauceDemo
 {
 
-	public static void main(String[] args) throws InterruptedException
+	public static void main(String args[]) throws InterruptedException
 	{
 		System.setProperty("webdriver.chrome.driver",
 				"C:\\Users\\Pranjali\\Desktop\\chromedriver_win32\\chromedriver.exe");

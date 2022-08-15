@@ -20,7 +20,7 @@ public class FlipkartPop_UP
 				"C:\\Users\\Pranjali\\Desktop\\chromedriver_win32\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));// TODO Auto-generated method stub
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(25));
 		driver.get("https://www.flipkart.com/");
 		Thread.sleep(2000);
 
@@ -52,6 +52,7 @@ public class FlipkartPop_UP
 		List<String> pageaddress = new ArrayList<String>(driver.getWindowHandles());
 
 		driver.switchTo().window(pageaddress.get(1));
+		System.out.println(pageaddress);
 
 		WebElement addtocart = driver.findElement(By.xpath("//button[@class='_2KpZ6l _2U9uOA _3v1-ww']"));
 		addtocart.click();
