@@ -1,23 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="17287" started-at="2022-08-13T01:22:12 IST" finished-at="2022-08-13T01:22:29 IST">
+  <suite name="Suite" duration-ms="19648" started-at="2022-08-26T00:45:57 IST" finished-at="2022-08-26T00:46:17 IST">
     <groups>
     </groups>
-    <test name="Test" duration-ms="17287" started-at="2022-08-13T01:22:12 IST" finished-at="2022-08-13T01:22:29 IST">
+    <test name="Test" duration-ms="19648" started-at="2022-08-26T00:45:57 IST" finished-at="2022-08-26T00:46:17 IST">
       <class name="PageObjectModel.VerificationClass">
-        <test-method status="PASS" signature="kabbadi()[pri:0, instance:PageObjectModel.VerificationClass@10dba097]" name="kabbadi" duration-ms="14064" started-at="2022-08-13T01:22:12 IST" finished-at="2022-08-13T01:22:26 IST">
+        <test-method status="PASS" signature="kabbadi()[pri:0, instance:PageObjectModel.VerificationClass@18bf3d14]" name="kabbadi" duration-ms="19516" started-at="2022-08-26T00:45:57 IST" finished-at="2022-08-26T00:46:17 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- kabbadi -->
       </class> <!-- PageObjectModel.VerificationClass -->
-      <class name="PageObjectModel.TestClassSauceDemo">
-        <test-method status="PASS" signature="dhatura()[pri:0, instance:PageObjectModel.TestClassSauceDemo@18bf3d14]" name="dhatura" duration-ms="17181" started-at="2022-08-13T01:22:12 IST" finished-at="2022-08-13T01:22:29 IST">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- dhatura -->
-      </class> <!-- PageObjectModel.TestClassSauceDemo -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>
